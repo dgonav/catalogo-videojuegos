@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filtros input {
+  flex: 1;
+  min-width: 200px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+.contador {
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.tarjeta h3 {
+  font-size: 16px;
+  margin: 8px 0 4px;
+}
+
+.tarjeta p {
+  color: #555;
+  margin: 0 0 8px;
+}
+
+.fav {
+  background: #9e9e9e;
+  width: 100%;
+}
+
+.fav.activo {
+  background: #f9a825;
+}
+
+.vacio {
+  text-align: center;
+  color: #777;
+}
+
+.fondo-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.modal {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.modal img {
+  width: 180px;
+  border-radius: 5px;
+}
+
+.modal > div {
+  flex: 1;
+  min-width: 200px;
+}
