@@ -7,7 +7,7 @@ Aplicación web hecha con React (Vite) para explorar un catálogo de videojuegos
 ## Entregables
 
 - Aplicación desplegada: https://dgonav.github.io/catalogo-videojuegos/
-- Video de demostración: [entregables/video_catalogo_videojuegos.mp4](entregables/video_catalogo_videojuegos.mp4)
+- Video de demostración: https://drive.google.com/file/d/1EjBSeuspTYBlwM3D2uxMQXu0t-IYR5dp/view?usp=sharing
 - Explicación (PDF): [entregables/Actividad_10_Catalogo_Videojuegos.pdf](entregables/Actividad_10_Catalogo_Videojuegos.pdf)
 
 ## Requisitos
